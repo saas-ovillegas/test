@@ -56,8 +56,8 @@ Order="File download transaction__*delimiter*__Save to file transaction"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 "File download transaction"=
 "Save to file transaction"=

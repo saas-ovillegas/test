@@ -2,7 +2,7 @@ Action()
 {
 	int i;			// 'for' counter
 	char buff[50];	// string buffer for saving employee names
-	char* filepath = "\employees.txt";
+	char* filepath = "\employees.csv";
 	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -46,7 +46,7 @@ Action()
 		//lr_output_message("Current value is: %s", lr_eval_string("{p_persons}"));
 		
 	//Save current entry to local file
-		write_to_file(filepath, lr_eval_string("{p_persons}\n"));
+		write_to_file(filepath, lr_eval_string("{p_persons},"));
 	}
 	
 	lr_end_transaction("Save to file transaction",LR_AUTO);
