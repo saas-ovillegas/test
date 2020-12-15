@@ -1,4 +1,4 @@
-# 1 "c:\\users\\villegos\\documents\\vugen\\scripts\\json download and save\\\\combined_json download and save.c"
+# 1 "c:\\users\\villegos\\documents\\git scripts\\json download and save\\\\combined_json download and save.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h" 1
  
  
@@ -968,7 +968,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\villegos\\documents\\vugen\\scripts\\json download and save\\\\combined_json download and save.c" 2
+# 1 "c:\\users\\villegos\\documents\\git scripts\\json download and save\\\\combined_json download and save.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/SharedParameter.h" 1
 
@@ -1136,7 +1136,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\villegos\\documents\\vugen\\scripts\\json download and save\\\\combined_json download and save.c" 2
+# 2 "c:\\users\\villegos\\documents\\git scripts\\json download and save\\\\combined_json download and save.c" 2
 
 # 1 "globals.h" 1
 
@@ -2580,8 +2580,9 @@ void
 
 # 7 "globals.h" 2
 
-# 1 "lrw_custom_body.h" 1
+# 1 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrw_custom_body.h" 1
  
+
 
 
 
@@ -2836,21 +2837,21 @@ void write_to_file(const char *filepath, const char *data)
         fclose(fp);
     }
 }
-# 3 "c:\\users\\villegos\\documents\\vugen\\scripts\\json download and save\\\\combined_json download and save.c" 2
+# 3 "c:\\users\\villegos\\documents\\git scripts\\json download and save\\\\combined_json download and save.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\villegos\\documents\\vugen\\scripts\\json download and save\\\\combined_json download and save.c" 2
+# 4 "c:\\users\\villegos\\documents\\git scripts\\json download and save\\\\combined_json download and save.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
 	int i;			 
 	char buff[50];	 
-	char* filepath = "\employees.csv";
+	char* filepath = "\employees.txt";
 	
 	web_set_sockets_option("SSL_VERSION", "AUTO");
 
@@ -2894,7 +2895,7 @@ Action()
 		 
 		
 	 
-		write_to_file(filepath, lr_eval_string("{p_persons},"));
+		write_to_file(filepath, lr_eval_string("{p_persons}"));
 	}
 	
 	lr_end_transaction("Save to file transaction",2);
@@ -2902,12 +2903,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\villegos\\documents\\vugen\\scripts\\json download and save\\\\combined_json download and save.c" 2
+# 5 "c:\\users\\villegos\\documents\\git scripts\\json download and save\\\\combined_json download and save.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\villegos\\documents\\vugen\\scripts\\json download and save\\\\combined_json download and save.c" 2
+# 6 "c:\\users\\villegos\\documents\\git scripts\\json download and save\\\\combined_json download and save.c" 2
 

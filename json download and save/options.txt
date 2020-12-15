@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\villegos\Documents\Git scripts\json download and save
+-IC:\Program Files (x86)\Micro Focus\Virtual User Generator\include
+-ec:\users\villegos\documents\git scripts\json download and save\\logfile.log
+c:\users\villegos\documents\git scripts\json download and save\\combined_json download and save.c
+c:\users\villegos\documents\git scripts\json download and save\\pre_cci.c

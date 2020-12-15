@@ -1,0 +1,51 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 15/12/2020 11:59:23
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.3.0 for Windows 10; build 356 (Sep 21 2020 19:30:48)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\villegos\Documents\Git scripts\json download and save\\default.cfg"  	[MsgId: MMSG-27141]
+Warning: Failed to get NV emulation handle.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): Notify: Transaction "File download transaction" started.
+Action.c(9): Warning: Failed to get NV emulation handle.
+Action.c(11): web_add_header("X-P2P-PeerDist") started  	[MsgId: MMSG-26355]
+Action.c(11): web_add_header("X-P2P-PeerDist") was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_add_header("X-P2P-PeerDistEx") started  	[MsgId: MMSG-26355]
+Action.c(14): web_add_header("X-P2P-PeerDistEx") was successful  	[MsgId: MMSG-26392]
+Action.c(18): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(18): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(26): web_url("employees.json") started  	[MsgId: MMSG-26355]
+Action.c(26): Notify: Saving Parameter "persons_1 = Shyam".
+Action.c(26): Notify: Saving Parameter "persons_2 = Bob".
+Action.c(26): Notify: Saving Parameter "persons_3 = Jai".
+Action.c(26): Notify: Saving Parameter "persons_count = 3".
+Action.c(26): web_url("employees.json") was successful, 180 body bytes, 363 header bytes  	[MsgId: MMSG-26386]
+Action.c(35): Notify: Transaction "File download transaction" ended with a "Pass" status (Duration: 7,2382 Wasted Time: 0,1091).
+Action.c(37): Notify: Transaction "Save to file transaction" started.
+Action.c(37): Warning: Failed to get NV emulation handle.
+Action.c(43): Notify: Parameter Substitution: parameter "persons_1" =  "Shyam"
+Action.c(43): Notify: Saving Parameter "p_persons = Shyam".
+Action.c(49): Notify: Parameter Substitution: parameter "p_persons" =  "Shyam"
+Action.c(43): Notify: Parameter Substitution: parameter "persons_2" =  "Bob"
+Action.c(43): Notify: Saving Parameter "p_persons = Bob".
+Action.c(49): Notify: Parameter Substitution: parameter "p_persons" =  "Bob"
+Action.c(43): Notify: Parameter Substitution: parameter "persons_3" =  "Jai"
+Action.c(43): Notify: Saving Parameter "p_persons = Jai".
+Action.c(49): Notify: Parameter Substitution: parameter "p_persons" =  "Jai"
+Action.c(52): Notify: Transaction "Save to file transaction" ended with a "Pass" status (Duration: 0,0368).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
+Ending action vuser_end.
+Vuser Terminated.

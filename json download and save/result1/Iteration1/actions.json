@@ -1,0 +1,29 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: employees.json",
+                "infFile": "t1.inf",
+                "time": 1608055170696
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "File download transaction",
+                "rawStartTime": 1608055163460,
+                "rawEndTime": 1608055170698,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1090555191040039
+            },
+            {
+                "transactionName": "Save to file transaction",
+                "rawStartTime": 1608055170700,
+                "rawEndTime": 1608055170737,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    }
+]
